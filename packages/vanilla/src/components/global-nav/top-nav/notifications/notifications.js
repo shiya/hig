@@ -74,6 +74,12 @@ class Notifications extends Core {
   setNotLoading() {
     this.list.setNotLoading();
   }
+
+  setTitle(title) {
+    if (this.list) {
+      this.list.setTitle(title);
+    }
+  }
 }
 
 Notifications._interface =

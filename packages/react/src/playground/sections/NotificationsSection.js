@@ -3,7 +3,7 @@ import PlaygroundSection from "../PlaygroundSection";
 import { Notifications, Notification, TextLink } from "../../hig-react";
 
 const notificationProps = {
-  "1": {
+  1:{
     unread: true,
     children: () => (
       <div>
